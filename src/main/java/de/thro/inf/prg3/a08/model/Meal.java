@@ -53,6 +53,10 @@ public class Meal {
 		this.notes = notes;
 	}
 
+
+	//filter
+
+
 	public boolean isVegetarian() {
 		var containsMeat = false;
 		for(var s : notes){
